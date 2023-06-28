@@ -20,6 +20,8 @@ System.out.println("Valor final del try: " + valor);
 } catch(NumberFormatException e) {
 valor = valor + Integer.parseInt ("W");
 System.out.println("Valor final del catch: " + valor);
+} catch(Exception e) {
+System.out.println("Valor final del catch: " + valor);
 } finally{
 valor = valor + 1;
 System.out.println("Valor final del finally:" + valor);
